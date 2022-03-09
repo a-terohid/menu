@@ -1,5 +1,7 @@
 import React , { useState } from 'react';
 
+import styles from "./AppStyle.module.css"
+
 //COMPONENTS
 import Categories from "./Categories";
 import Menu from "./Menu";
@@ -13,10 +15,10 @@ function App() {
 
   return (
     <main>
-      <section className="menu section">
-        <div className="title">
+      <section className={ styles.menu }  >
+        <div className={ styles.title } >
           <h2>our menu</h2>
-          <div className="underline"></div>
+          <div className={ styles.underline } ></div>
         </div>
         <Categories categories={ categories }  />
         <Menu items={ menuItems } />
