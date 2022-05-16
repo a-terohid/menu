@@ -1,0 +1,31 @@
+$purple : #8D8DAA;
+$gray: #DFDFDE;
+$white: #F7F5F2;
+$pink: #F56D91;
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+.App{
+    background-color:$gray;
+    min-height: 100vh;
+}
+
+.name{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    font-family: 'Caveat', cursive;
+}
+
+.line{
+    height: 4px;
+    background-color: $pink;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 5px;
+}

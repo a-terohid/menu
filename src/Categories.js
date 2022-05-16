@@ -1,9 +1,17 @@
 import React from 'react';
 
-const Categories = () => {
+//style
+import styles from './categories.module.scss'
+
+const Categories = ({ categories , FilterItems }) => {
     return (
-        <div>
-            Categories COMPONENTS
+        <div className={ styles.categories } >
+            {
+                categories.map( ( category , index ) => <button
+                                                           key={index}
+                                                           onClick={ () => FilterItems( category ) } 
+                                                        >{category}</button> )
+            }
         </div>
     );
 };

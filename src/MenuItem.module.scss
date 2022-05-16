@@ -1,0 +1,56 @@
+$purple : #8D8DAA;
+$gray: #DFDFDE;
+$white: #F7F5F2;
+$pink: #F56D91;
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+.Menu{
+    width: 550px;
+    background-color:$purple; 
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.img{
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.top{
+    display: flex;
+    justify-content:space-between;
+
+    h2{
+        font-family: 'Caveat', cursive;
+        font-size: 1.8rem;
+    }
+
+    h3{
+        margin-top: 9px;
+        color: $gray;
+    }
+
+}
+
+.line{
+    height: 3px;
+    background-color: $white;
+    border-radius: 5px;
+    margin: 7px 10px;
+}
+
+.info{
+    p{
+        font-family: 'Indie Flower', cursive;
+        font-size: 1rem;
+    }
+}

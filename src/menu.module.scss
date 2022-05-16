@@ -1,0 +1,17 @@
+$purple : #8D8DAA;
+$gray: #DFDFDE;
+$white: #F7F5F2;
+$pink: #F56D91;
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+.Menu{
+    margin: 2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
